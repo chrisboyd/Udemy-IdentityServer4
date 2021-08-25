@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fvIf/KDRWrL+1/t9+JV+N7dgBLDeif8MKDPkfOFMQGEtK+CDvOQaYjiF5fR7QHAloCYqJYieI7tlt9Jw/YSAVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chris\\.nuget\\packages\\identitymodel\\5.1.0\\identitymodel.5.1.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\system.text.encodings.web\\5.0.1\\system.text.encodings.web.5.0.1.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
