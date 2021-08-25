@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj": {}
+    "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj": {
+    "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj",
         "projectName": "BankDotNet.MvcClient",
-        "projectPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj",
+        "projectPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.MvcClient\\BankDotNet.MvcClient.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.MvcClient\\obj\\",
+        "outputPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.MvcClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,14 +40,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "IdentityServer4": {
-              "target": "Package",
-              "version": "[4.1.2, )"
-            },
-            "Microsoft.AspNetCore.Authentication.Cookies": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
               "version": "[5.0.9, )"

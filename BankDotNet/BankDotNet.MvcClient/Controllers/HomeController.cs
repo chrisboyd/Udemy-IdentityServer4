@@ -1,12 +1,11 @@
-﻿using BankDotNet.MvcClient.Models;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using BankDotNet.MvcClient.Models;
 
 namespace BankDotNet.MvcClient.Controllers
 {
@@ -25,12 +24,6 @@ namespace BankDotNet.MvcClient.Controllers
         }
 
         public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [Authorize]
-        public IActionResult Secure()
         {
             return View();
         }

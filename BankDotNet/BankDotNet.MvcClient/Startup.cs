@@ -1,14 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.AspNetCore.Authentication.OAuth;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.IdentityModel.Tokens.Jwt;
 
 namespace BankDotNet.MvcClient
 {
@@ -24,17 +24,9 @@ namespace BankDotNet.MvcClient
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.None;
-            });
-
-            services.AddMvc(options => 
-            options.EnableEndpointRouting = false).SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Latest);
-            
             services.AddControllersWithViews();
-            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+            JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
+
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = "Cookies";
@@ -43,13 +35,12 @@ namespace BankDotNet.MvcClient
             .AddCookie("Cookies")
             .AddOpenIdConnect("oidc", options =>
             {
-                options.SignInScheme = "Cookies";
-                options.Authority = "http://localhost:5000";
-                options.RequireHttpsMetadata = false;
+                options.Authority = "https://localhost:5000";
                 options.ClientId = "mvc";
+                options.ClientSecret = "secret";
+                options.ResponseType = "code";
                 options.SaveTokens = true;
             });
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,18 +53,23 @@ namespace BankDotNet.MvcClient
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
             }
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseCookiePolicy();
 
+            app.UseRouting();
             app.UseAuthentication();
 
-            app.UseMvc(routes =>
-              {
-                  routes.MapRoute(
-                      name: "default",
-                      template: "{controller=Home}/{action=Index}/{id?}");
-              });
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapDefaultControllerRoute()
+                    .RequireAuthorization();
+                
+            });
         }
     }
 }

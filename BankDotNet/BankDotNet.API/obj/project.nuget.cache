@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I0KShpg6v/T/bl2cEeumR0Hy4+Aoh6LPsYfwde/a64eYHPWB1S9vs3YOIh1VI1vx3Doc2CPw/mvaib5imo0c0Q==",
+  "dgSpecHash": "naBktkh3UEye/wb8NHfqOpeMHC4In+aSZlsNdfvgGTrN+KRjZlvx5Tyy1zMQVz/W9Xw08JmddzE5+/jzA3CPrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.API\\BankDotNet.API.csproj",
+  "projectFilePath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.API\\BankDotNet.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",

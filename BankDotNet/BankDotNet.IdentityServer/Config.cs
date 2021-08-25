@@ -10,15 +10,13 @@ namespace BankDotNet.IdentityServer
 {
     public class Config
     {
-        public static IEnumerable<IdentityResource> GetIdentityResources()
-        {
-            return new List<IdentityResource>
+        public static IEnumerable<IdentityResource> IdentityResources() =>
+            new List<IdentityResource>
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile()
             };
-        }
-
+        
         public static List<TestUser> GetUsers()
         {
             return new List<TestUser>
@@ -76,21 +74,24 @@ namespace BankDotNet.IdentityServer
                     AllowedScopes = { "bankOfDotNetApi" }
                 },
 
-                //Implicit Flow Grant type
+                //interactive ASP.NET Core MVC Client
                 new Client
                 {
                     ClientId = "mvc",
-                    ClientName = "MVC Client",
-                    AllowedGrantTypes = GrantTypes.Implicit,
+                    ClientSecrets = { new Secret("secret".Sha256())},
+                    AllowedGrantTypes = GrantTypes.Code,
 
-                    RedirectUris = { "http://localhost:/5003/signin-oidc" },
-                    PostLogoutRedirectUris = { "http://localhost:5003/signout-callback-oidc" },
+                    //where to redirect to after login
+                    RedirectUris = { "https://localhost:5002/signin-oidc" },
 
-                    AllowedScopes = new List<string>
-                    {
-                        IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
-                    }
+                    //where to redirect to after logout
+                   PostLogoutRedirectUris = { "https://localhost:5002/signout-callback-oidc" },
+
+                   AllowedScopes = new List<string>
+                   {
+                       IdentityServerConstants.StandardScopes.OpenId,
+                       IdentityServerConstants.StandardScopes.Profile
+                   }
                 }
             };
         }
