@@ -8575,11 +8575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.API\\BankDotNet.API.csproj",
+      "projectUniqueName": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.API\\BankDotNet.API.csproj",
       "projectName": "BankDotNet.API",
-      "projectPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.API\\BankDotNet.API.csproj",
+      "projectPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.API\\BankDotNet.API.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.API\\obj\\",
+      "outputPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",

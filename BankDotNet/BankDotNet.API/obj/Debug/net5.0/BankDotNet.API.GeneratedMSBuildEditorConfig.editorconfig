@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = BankDotNet.API
-build_property.ProjectDir = C:\Users\chris\OneDrive - WithYouWithMe\Documents\GitHub\NetCoreIdentityServer\BankDotNet\BankDotNet.API\
+build_property.ProjectDir = C:\Users\chris\repos\IdentityServer4\BankDotNet\BankDotNet.API\

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj": {}
+    "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj": {
+    "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj",
         "projectName": "BankDotNet.IdentityServer",
-        "projectPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj",
+        "projectPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.IdentityServer\\obj\\",
+        "outputPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",

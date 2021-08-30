@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6hEmQt6OuuuAkb4NcxXfrFks3OGgn6pTupy2bzvF7Jq+CFXIZiOE0ydEHtLuK36e+SUdXV6lb9SQNauZ6Ih39A==",
+  "dgSpecHash": "lFqAx24hCfLJmx29w2eTEfodbyrzRrbQqZ/+NJDkfYuUeVitqSu8D2T9PkJ4B5xfspa8N+syDIUHiKYCngZnrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankDotNet.IdentityServer\\BankDotNet.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",

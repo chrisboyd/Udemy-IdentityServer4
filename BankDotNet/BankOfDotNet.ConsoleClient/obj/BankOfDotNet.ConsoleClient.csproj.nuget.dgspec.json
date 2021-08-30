@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj": {}
+    "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj": {
+    "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj",
         "projectName": "BankOfDotNet.ConsoleClient",
-        "projectPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj",
+        "projectPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankOfDotNet.ConsoleClient\\BankOfDotNet.ConsoleClient.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\OneDrive - WithYouWithMe\\Documents\\GitHub\\NetCoreIdentityServer\\BankDotNet\\BankOfDotNet.ConsoleClient\\obj\\",
+        "outputPath": "C:\\Users\\chris\\repos\\IdentityServer4\\BankDotNet\\BankOfDotNet.ConsoleClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
